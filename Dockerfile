@@ -1,4 +1,4 @@
-FROM node:8.9.0-alpine
+FROM node:8.9.4-alpine
 
 RUN apk update && apk upgrade && apk add --no-cache git openssh bash curl python grep
 RUN npm -g install lerna
